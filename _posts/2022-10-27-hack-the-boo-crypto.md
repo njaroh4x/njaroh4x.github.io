@@ -303,7 +303,7 @@ Let "b7b6b5b4b3b2b1b0" be the representation of byte b. Then the method rotate(b
 rotate(b) == 0000b7b6b5b4 | b4b3b2b1(b0)000 = b4b3b2b1(b7 | b0)b6b5b4
 ```
 
-If we swap either b7 or b0 in a way that (b7 | b0) holds the original value, then the rotate function produces the same output.
+If we swap either b7 or b0 in a way that (b7 \| b0) holds the original value, then the rotate function produces the same output.
 
 Simple python PoC script (you can also swap only one vulnerable letter not all of them):
 ```
