@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hack The Boo 2022 - web"
+categories: ["ctf", "hacktheboo2022"]
 ---
 
 ## Evaluation Deck
